@@ -4,3 +4,8 @@ spring:
       port: 27017
       host: localhost
       database: payment_service
+server:
+  error:
+    include-stacktrace: never
+    whitelabel:
+      enabled: true

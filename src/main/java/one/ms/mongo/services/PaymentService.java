@@ -7,5 +7,5 @@ public interface PaymentService {
 
     Object doPayment(Payment payment);
     Object getPayment(String paymentId) throws PaymentNotFoundException;
-    Object getAllPayment();
+    Object getAllPayment()throws PaymentNotFoundException;
 }
